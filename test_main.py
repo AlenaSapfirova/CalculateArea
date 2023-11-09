@@ -65,3 +65,7 @@ class TestCalculateArea(unittest.TestCase):
         call = CalculateArea.calculate_area(2, 2, 3)
         result = '1.98, треугольник непрямоугольный'
         self.assertEqual(call, result, 'Функция calculate_area неправильно определяет тип треугольника.')
+
+
+if __name__ == '__main__':
+    unittest.main()
